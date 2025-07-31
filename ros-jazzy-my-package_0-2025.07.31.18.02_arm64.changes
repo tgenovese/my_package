@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 18 Jul 2025 00:00:00 -0000
+Source: ros-jazzy-my-package
+Binary: ros-jazzy-my-package
+Built-For-Profiles: noudeb
+Architecture: arm64
+Version: 0-2025.07.31.18.02
+Distribution: noble
+Urgency: high
+Maintainer: Scott K Logan <logans@cottsay.net>
+Changed-By: Scott K Logan <logans@cottsay.net>
+Description:
+ ros-jazzy-my-package - A simple test package
+Changes:
+ ros-jazzy-my-package (0-2025.07.31.18.02) noble; urgency=high
+ .
+   * Initial package
+   * Contributors: Thierry Genovese
+Checksums-Sha1:
+ e640c72dd353baca320a21edcfac1263ef08b4a1 5060 ros-jazzy-my-package-dbgsym_0-2025.07.31.18.02_arm64.ddeb
+ 117c5d65bb0192333eefdd77e68fbc86f94a6705 11566 ros-jazzy-my-package_0-2025.07.31.18.02_arm64.buildinfo
+ db5b4984780f973df2a95864e23740f53cf56e6f 6514 ros-jazzy-my-package_0-2025.07.31.18.02_arm64.deb
+Checksums-Sha256:
+ d7a3e96d35acdbda939355484ae59a0c30a7febb8a47e3d7b0101bc81e552ea3 5060 ros-jazzy-my-package-dbgsym_0-2025.07.31.18.02_arm64.ddeb
+ b53c5b804cd5296f0726b454e822ed173d36fa97169d10db7606afcf438c36d1 11566 ros-jazzy-my-package_0-2025.07.31.18.02_arm64.buildinfo
+ 9f60edbaa2692fc51bd37cb4dc36dd44053214e0d61945c363f5225e0bd6dcdb 6514 ros-jazzy-my-package_0-2025.07.31.18.02_arm64.deb
+Files:
+ 26edfe33212f39df940072eb4992bf0e 5060 debug optional ros-jazzy-my-package-dbgsym_0-2025.07.31.18.02_arm64.ddeb
+ 81daec4c80d6e3c7e4f8b8d7b42ef8bc 11566 misc optional ros-jazzy-my-package_0-2025.07.31.18.02_arm64.buildinfo
+ db0912f45326ed6bc99eeee2547ab944 6514 misc optional ros-jazzy-my-package_0-2025.07.31.18.02_arm64.deb

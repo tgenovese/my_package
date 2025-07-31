@@ -1,0 +1,36 @@
+Package: ros-jazzy-my-package-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2025.07.31.18.02
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-my-package
+Maintainer: Scott K Logan <logans@cottsay.net>
+Installed-Size: 20
+Depends: ros-jazzy-my-package (= 0-2025.07.31.18.02)
+Filename: ./ros-jazzy-my-package-dbgsym_0-2025.07.31.18.02_arm64.ddeb
+Size: 5060
+MD5sum: 26edfe33212f39df940072eb4992bf0e
+SHA1: e640c72dd353baca320a21edcfac1263ef08b4a1
+SHA256: d7a3e96d35acdbda939355484ae59a0c30a7febb8a47e3d7b0101bc81e552ea3
+SHA512: 09e6df3eb1611c3de4224e841498cce979142f5c7c23af399f27c2198739c779ceb3d555affc4af078b86b8228e9e70e0701b8322ec9508e260943c683c2db2a
+Description: debug symbols for ros-jazzy-my-package
+Build-Ids: d977b998a8c7c7be4bad66a5e126fcaf247cf6a2
+
+Package: ros-jazzy-my-package
+Architecture: arm64
+Version: 0-2025.07.31.18.02
+Priority: optional
+Section: misc
+Maintainer: Scott K Logan <logans@cottsay.net>
+Installed-Size: 109
+Depends: libc6 (>= 2.34)
+Filename: ./ros-jazzy-my-package_0-2025.07.31.18.02_arm64.deb
+Size: 6514
+MD5sum: db0912f45326ed6bc99eeee2547ab944
+SHA1: db5b4984780f973df2a95864e23740f53cf56e6f
+SHA256: 9f60edbaa2692fc51bd37cb4dc36dd44053214e0d61945c363f5225e0bd6dcdb
+SHA512: 039a419a3918335a10d974f24f09a3bf106bd06df94265a7536c08f3fae0d4f54f8e171083435e6a5e3c02d1007c3eb2ba4cdf368bfb6f3524e38376669f25cc
+Description: A simple test package
+
